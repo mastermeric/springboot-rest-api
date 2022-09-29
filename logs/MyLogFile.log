@@ -1,0 +1,11 @@
+2022-09-29 00:37:04,496 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 18 on LAPTOP-R20PI37O with PID 34856 (D:\PROJELER\JAVA\springboot-rest-api\demo\target\classes started by micro in D:\PROJELER\JAVA\springboot-rest-api\demo)
+2022-09-29 00:37:04,511 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-29 00:37:05,464 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-09-29 00:37:05,484 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-09-29 00:37:05,485 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-29 00:37:05,485 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-29 00:37:05,595 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-29 00:37:05,596 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1035 ms
+2022-09-29 00:37:05,959 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-09-29 00:37:05,991 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-29 00:37:06,005 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 1.813 seconds (JVM running for 2.577)

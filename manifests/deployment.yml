@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: springapiimage 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: springapiimage
+  template:
+    metadata:
+      labels:
+        app: springapiimage 
+    spec:
+      containers:
+        - name: springapiimage 
+          image: springwebapi.azurecr.io/springapiimage
+          ports:
+          - containerPort: 5001
